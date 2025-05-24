@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         mersin: ['"Mersin"']
       },
+      screens: {
+        'half': '1000px'
+      },
     },
   },
   plugins: [],
