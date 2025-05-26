@@ -2,13 +2,13 @@ import { useState } from 'react';
 
 function SideBar() {
   return (
-    <div className="w-full half:w-[442px] half:fixed half:h-screen pl-3 pt-6 font-mersin overflow-auto relative">
+    <div className="w-full half:w-[442px] half:fixed half:h-screen pl-4 pt-6 font-mersin overflow-auto relative">
       <h1 className="text-4xl font-bold mb-4 mt-5">Jonathan Choi</h1>
 
       <div className="relative flex flex-col gap-2 pr-0 half:pr-6">
 
         <p className="text-lg font-thin break-words w-full pr-0 half:pr-4 half:border-r-8 half:border-black">
-          <span className="font-bold text-2xl block mb-2">
+          <span className="font-bold text-2xl block">
             Software Engineer
           </span>
           I’m a San Francisco native with a business economics degree who took an unconventional path into tech.

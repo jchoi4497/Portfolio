@@ -3,7 +3,7 @@ import Content from "./Content";
 
 function Main() {
   return (
-    <div className="flex h-screen">
+    <div className="half:flex h-screen">
       <Sidebar />
       <Content />
     </div>
