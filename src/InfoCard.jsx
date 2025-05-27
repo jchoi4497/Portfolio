@@ -30,7 +30,7 @@ function InfoCard({ category, date, skills, infoLinks }) {
                   className="flex items-center gap-2 underline hover:no-underline focus:text-stone-600"
                 >
                   {link.logo && (
-                    <img src={link.logo} alt="" className="w-5 h-5" />
+                    <img src={link.logo} alt="" className="w-5 h-5 dark:invert" />
                   )}
                   {link.label}
 

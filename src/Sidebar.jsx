@@ -6,7 +6,7 @@ import LinkedInLogo from './images/LinkedInLogo.svg.png';
 function SideBar() {
   return (
     <div className="w-full half:w-[442px] half:fixed half:h-screen pl-4 pt-6 font-open-sans overflow-auto relative">
-      <h1 className="text-4xl underline font-bold mb-4 mt-5">Jonathan Choi</h1>
+      <h1 className="text-4xl font-bold mb-4 mt-5">Jonathan Choi</h1>
       <div className="flex ml-10 mb-6">
         <img
           src={PortfolioPic}
@@ -17,7 +17,7 @@ function SideBar() {
 
       <div className="relative flex flex-col gap-2 pr-0 half:pr-6">
 
-        <p className="font-thin break-words w-full pr-0 half:pr-4 half:border-r-8 half:border-black">
+        <p className="font-thin break-words w-full pr-0 half:pr-4 half:border-r-8 half:border-black dark:border-white">
           <span className="font-bold text-2xl block">
             Software Engineer
           </span>
@@ -37,7 +37,7 @@ function SideBar() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 font-thin underline hover:no-underline"
           >
-            <img src={GitHubLogo} alt="GitHub" className="w-6 h-6" />
+            <img src={GitHubLogo} alt="GitHub" className="w-5 h-5 dark:invert" />
             GitHub Profile
           </a>
         </li>
@@ -48,7 +48,7 @@ function SideBar() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 font-thin underline hover:no-underline"
           >
-            <img src={LinkedInLogo} alt="LinkedIn" className="w-6 h-6" />
+            <img src={LinkedInLogo} alt="LinkedIn" className="w-5 h-5" />
             LinkedIn Profile
           </a>
         </li>

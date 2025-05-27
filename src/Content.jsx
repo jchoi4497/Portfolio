@@ -4,8 +4,8 @@ import GitHubLogo from './images/GitHubLogo.png';
 
 function Content() {
   return (
-    <div className="font-open-sans mt-4 w-full">
-      <div className="pl-4 pt-6 pb-20 half:pl-0 half:pt-0 half:ml-[442px] ">
+    <div className="font-open-sans w-full pt-10">
+      <div className="pl-4 pb-20 half:pl-0 half:pt-0 half:ml-[442px]">
 
         <ContentSection
           title="JcsGymGuide"
