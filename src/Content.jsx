@@ -8,15 +8,17 @@ function Content() {
         <ContentSection
           title="JcsGymGuide"
           description=
-          {`An interactive, single-page app using React for dynamic state management, routing, and component-based design.
-            Utilized Tailwind CSS to create a clean, responsive, and scalable user interface.
-            Integrated Firebase Firestore for data storage, enabling users to log, edit, and delete personalized workout sessions.
-            Implemented categorized exercise ordering, personalized input handling, and a saved workout history, demonstrating data structuring, CRUD operations, and user-centered UI/UX design.`
+          {`This project holds personal significance as it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do.
+            Like many people new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions.
+            To solve this, I built an interactive, single-page application using React for dynamic state management and component-based design.
+            Tailwind CSS was used to create a clean, responsive, and scalable UI, while Firebase Firestore handled data storage — allowing users to log, edit, and delete customized workout sessions.
+            The app also includes categorized exercise ordering and personalized input handling to guide users through their routines.
+            By combining CRUD operations with user-centered UI/UX principles, this app helps both beginners and experienced lifters stay consistent and confident in the gym.`
           }
           category={"Full-stack Web App"}
           date={"2024"}
           skills={["React", "Tailwind CSS", "Firebase"]}
-          projectLink="https://github.com/jchoi4497/Gym-Guide"
+          projectLink="https://jcsgymguide.netlify.app/"
           infoLinks={[
             { label: "Project code on Github", url: "https://github.com/jchoi4497/Gym-Guide" },
           ]}
@@ -32,7 +34,7 @@ function Content() {
           skills={["React", "Tailwind CSS", "Firebase"]}
           category={"Full-stack Web App"}
           date={"2024"}
-          projectLink="https://github.com/yumyumtumtum/younotdown"
+          projectLink="https://younotdown.netlify.app/"
           infoLinks={[
             { label: "Project code on Github", url: "https://github.com/yumyumtumtum/younotdown" },
           ]}
@@ -47,7 +49,7 @@ function Content() {
           category={"Full-stack Web App"}
           date={"2024"}
           skills={["React", "Tailwind CSS"]}
-          projectLink="https://github.com/jchoi4497/Components"
+          projectLink="https://componentdemonstrations.netlify.app/"
           infoLinks={[
             { label: "Project code on Github", url: "https://github.com/jchoi4497/Components" },
           ]}

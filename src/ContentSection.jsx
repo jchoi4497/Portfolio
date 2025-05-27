@@ -2,7 +2,7 @@ import InfoCard from "./InfoCard";
 
 function ContentSection({ title, description, projectLink, infoLinks, category, date, skills }) {
   return (
-    <div className="mb-20">
+    <div className="mb-10">
       <a
         href={projectLink}
         target="_blank"
@@ -12,8 +12,8 @@ function ContentSection({ title, description, projectLink, infoLinks, category, 
         {title}
       </a>
 
-      <div className="half:flex half:items-start half:gap-4">
-        <p className="mb-4 mr-4 max-w-full half:w-[250px]">
+      <div className="text-lg half:flex half:items-start half:gap-4">
+        <p className="mb-4 mr-4 max-w-full half:w-[325px]">
           <span className="text-2xl font-bold mt-3 block">
             Description
           </span>
