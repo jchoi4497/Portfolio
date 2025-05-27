@@ -1,6 +1,6 @@
-function InfoCard({ category, date, skills, links }) {
+function InfoCard({ category, date, skills, infoLinks }) {
   return (
-    <div className="half:max-w-[250px]">
+    <div className="half:max-w-[250px] mt-5">
       <div>
         <div className="font-semibold">Category</div>
         <div className="text-base"></div>{category}
@@ -16,11 +16,11 @@ function InfoCard({ category, date, skills, links }) {
         <div className="text-base"></div>{skills.join(" / ")}
       </div>
 
-      {links && (
+      {infoLinks && (
         <div >
           <div className="font-semibold">More information</div>
           <ul className="list-disc list-inside">
-            {links.map((link, index) => (
+            {infoLinks.map((link, index) => (
               <li key={index}>
                 <a
                   key={index}
