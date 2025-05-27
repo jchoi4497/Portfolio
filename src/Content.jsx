@@ -1,9 +1,11 @@
 import ContentSection from "./ContentSection";
+import GitHubLogo from './images/GitHubLogo.png';
+
 
 function Content() {
   return (
-    <div className="font-mersin mt-4 w-full">
-      <div className="pl-4 pt-6 half:pl-0 half:pt-0 half:ml-[442px] ">
+    <div className="font-open-sans mt-4 w-full">
+      <div className="pl-4 pt-6 pb-20 half:pl-0 half:pt-0 half:ml-[442px] ">
 
         <ContentSection
           title="JcsGymGuide"
@@ -20,23 +22,25 @@ function Content() {
           skills={["React", "Tailwind CSS", "Firebase"]}
           projectLink="https://jcsgymguide.netlify.app/"
           infoLinks={[
-            { label: "Project code on Github", url: "https://github.com/jchoi4497/Gym-Guide" },
+            { label: "Project code on Github", url: "https://github.com/jchoi4497/Gym-Guide", logo: GitHubLogo },
           ]}
         />
 
         <ContentSection
           title="YouNotDown"
           description=
-          {`Developed an application that simplifies the process of making plans with friends.
+          {`Collaboratively developed an application that simplifies the process of making plans with friends.
             The app allows multiple users to create and participate in polls, showing who wants to attend the event and their preferences.
-            Optimized various components and the API server to handle data efficiently, using React for the frontend and Tailwind CSS for a responsive, clean design.`
+            Worked closely with team members to optimize various components and the API server for efficient data handling, using React for the frontend and Tailwind CSS for a responsive, clean design.
+
+`
           }
           skills={["React", "Tailwind CSS", "Firebase"]}
           category={"Full-stack Web App"}
           date={"2024"}
           projectLink="https://younotdown.netlify.app/"
           infoLinks={[
-            { label: "Project code on Github", url: "https://github.com/yumyumtumtum/younotdown" },
+            { label: "Project code on Github", url: "https://github.com/yumyumtumtum/younotdown", logo: GitHubLogo },
           ]}
         />
 
@@ -51,7 +55,7 @@ function Content() {
           skills={["React", "Tailwind CSS"]}
           projectLink="https://componentdemonstrations.netlify.app/"
           infoLinks={[
-            { label: "Project code on Github", url: "https://github.com/jchoi4497/Components" },
+            { label: "Project code on Github", url: "https://github.com/jchoi4497/Components", logo: GitHubLogo },
           ]}
         />
 

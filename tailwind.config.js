@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mersin: ['"Mersin"']
+        'open-sans': ['"Open Sans"']
       },
       screens: {
         'half': '1000px'

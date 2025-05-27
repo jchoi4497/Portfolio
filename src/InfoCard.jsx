@@ -19,7 +19,7 @@ function InfoCard({ category, date, skills, infoLinks }) {
       {infoLinks && (
         <div >
           <div className="font-semibold">More information</div>
-          <ul className="list-disc list-inside">
+          <ul className="flex flex-col gap-4">
             {infoLinks.map((link, index) => (
               <li key={index}>
                 <a
@@ -27,9 +27,11 @@ function InfoCard({ category, date, skills, infoLinks }) {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-blue-600 hover:text-blue-800"
+                  className="flex items-center gap-2 underline hover:no-underline focus:text-stone-600"
                 >
-
+                  {link.logo && (
+                    <img src={link.logo} alt="" className="w-5 h-5" />
+                  )}
                   {link.label}
 
                 </a>
