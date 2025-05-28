@@ -14,9 +14,6 @@ function ContentSection({ title, description, projectLink, infoLinks, category, 
 
       <div className="font-thin half:flex half:items-start half:gap-4">
         <p className="mb-4 mr-4 max-w-full half:w-[325px]">
-          <span className="text-2xl font-bold mt-3 block">
-            Description
-          </span>
           {description}
         </p>
 
