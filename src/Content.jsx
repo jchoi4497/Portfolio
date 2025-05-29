@@ -17,7 +17,7 @@ function Content() {
             The app also includes categorized exercise ordering and personalized input handling to guide users through their routines.
             By combining CRUD operations with user-centered UI/UX principles, this app helps both beginners and experienced lifters stay consistent and confident in the gym.`
           }
-          category={"Full-stack Web App"}
+          category={"Frontend Web Application"}
           date={"2024"}
           skills={["React", "Tailwind CSS", "Firebase"]}
           projectLink="https://jcsgymguide.netlify.app/"
@@ -32,15 +32,34 @@ function Content() {
           {`Collaboratively developed an application that simplifies the process of making plans with friends.
             The app allows multiple users to create and participate in polls, showing who wants to attend the event and their preferences.
             Worked closely with team members to optimize various components and the API server for efficient data handling, using React for the frontend and Tailwind CSS for a responsive, clean design.
-
-`
+            `
           }
           skills={["React", "Tailwind CSS", "Firebase"]}
-          category={"Full-stack Web App"}
+          category={"Frontend Web Application"}
           date={"2024"}
           projectLink="https://younotdown.netlify.app/"
           infoLinks={[
             { label: "Project code on Github", url: "https://github.com/yumyumtumtum/younotdown", logo: GitHubLogo },
+          ]}
+        />
+
+        <ContentSection
+          title="MapLocationSearch"
+          description=
+          {`Developed an interactive map application that allows users to search for locations using the OpenStreetMap API and view them on a dynamic Leaflet-powered map.
+            Implemented a location search component with real-time query handling, displaying results with actionable buttons to update the map’s focus.
+            Utilized TypeScript to enforce strict typing across components, improving code reliability and maintainability.
+            Integrated React Leaflet to render map markers and smooth fly-to animations upon location selection.
+            Styled the UI with Tailwind CSS for a clean, responsive, and accessible user experience.
+            Structured the app using modular components and TypeScript interfaces to streamline data flow and ensure type-safe API response handling.
+            `
+          }
+          skills={["React", "TypeScript", "Leaflet", "OpenStreetMap API", "Tailwind CSS"]}
+          category={"Interactive Map Application"}
+          date={"2024"}
+          projectLink="https://maplocationsearch.netlify.app/"
+          infoLinks={[
+            { label: "Project code on Github", url: "https://github.com/jchoi4497/MapLocationSearch", logo: GitHubLogo },
           ]}
         />
 
@@ -50,7 +69,7 @@ function Content() {
           {`An application designed to showcase and demonstrate various components and techniques learned throughout my development journey.
             The app serves as a portfolio of different UI components, including form elements, buttons, modals, accordions, and interactive features.`
           }
-          category={"Full-stack Web App"}
+          category={"Frontend Web Application"}
           date={"2024"}
           skills={["React", "Tailwind CSS"]}
           projectLink="https://componentdemonstrations.netlify.app/"
