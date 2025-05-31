@@ -51,6 +51,7 @@ function Content() {
             Utilized TypeScript to enforce strict typing across components, improving code reliability and maintainability.
             Integrated React Leaflet to render map markers and smooth fly-to animations upon location selection.
             Styled the UI with Tailwind CSS for a clean, responsive, and accessible user experience.
+            Added a light/dark mode toggle using Tailwind CSS dark classes, ensuring fast load times, semantic markup, accessibility, responsiveness, and seamless theme switching without impacting performance or crawlability.
             Structured the app using modular components and TypeScript interfaces to streamline data flow and ensure type-safe API response handling.
             `
           }
