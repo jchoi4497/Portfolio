@@ -1,10 +1,9 @@
 import ContentSection from "./ContentSection";
 import GitHubLogo from './images/GitHubLogo.png';
 
-
 function Content() {
   return (
-    <div className="font-open-sans w-full pt-10">
+    <div className="font-open-sans w-full pt-10 z-0">
       <div className="pl-4 pb-20 half:pl-0 half:pt-0 half:ml-[442px]">
 
         <ContentSection

@@ -1,11 +1,10 @@
-import { useState } from 'react';
 import PortfolioPic from './images/Portfolio.jpg';
 import GitHubLogo from './images/GitHubLogo.png';
 import LinkedInLogo from './images/LinkedInLogo.svg.png';
 
 function SideBar() {
   return (
-    <div className="w-full half:w-[442px] half:fixed half:h-screen pl-4 pt-6 font-open-sans overflow-auto relative">
+    <div className="w-full half:w-[442px] half:fixed half:h-screen pl-4 pt-6 font-open-sans overflow-auto z-0">
       <h1 className="text-4xl font-bold mb-4 mt-5">Jonathan Choi</h1>
       <div className="flex ml-10 mb-6">
         <img
