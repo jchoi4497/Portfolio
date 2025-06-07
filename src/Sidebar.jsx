@@ -14,7 +14,7 @@ function SideBar() {
         />
       </div>
 
-      <div className="relative flex flex-col gap-2 pr-0 half:pr-6">
+      <div className="relative flex flex-col gap-2 pr-4 half:pr-6">
 
         <p className="font-thin break-words w-full pr-0 half:pr-4 half:border-r-8 half:border-black dark:border-white">
           <span className="font-bold text-2xl block">
