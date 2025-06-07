@@ -25,7 +25,7 @@ function DarkMode() {
   return (
     <button
       onClick={toggleDarkMode}
-      className="p-6 rounded-full border-2 dark:border-white dark:text-white border-black absolute top-5 right-5 z-50"
+      className="p-6 rounded-full border-2 dark:border-white dark:text-white border-black sm:absolute sm:top-5 sm:right-5"
     >
       {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
     </button>
