@@ -11,10 +11,10 @@ function Content() {
           description=
           {`This project holds personal significance as it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do.
             Like many people new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions.
-            To solve this, I built an interactive, single-page application using React for dynamic state management and component-based design.
-            Tailwind CSS was used to create a clean, responsive, and scalable UI, while Firebase Firestore handled data storage — allowing users to log, edit, and delete customized workout sessions.
+            To solve this, I built an interactive, single page application using React for dynamic state management and component based design.
+            Tailwind CSS was used to create a clean, responsive, and scalable UI, while Firebase Firestore handled data storage allowing users to log, edit, and delete customized workout sessions.
             The app also includes categorized exercise ordering and personalized input handling to guide users through their routines.
-            By combining CRUD operations with user-centered UI/UX principles, this app helps both beginners and experienced lifters stay consistent and confident in the gym.`
+            By combining CRUD operations with user centered UI/UX principles, this app helps both beginners and experienced lifters stay consistent and confident in the gym.`
           }
           category={"Frontend Web Application"}
           date={"2024"}
@@ -45,13 +45,13 @@ function Content() {
         <ContentSection
           title="MapLocationSearch"
           description=
-          {`Developed an interactive map application that allows users to search for locations using the OpenStreetMap API and view them on a dynamic Leaflet-powered map.
-            Implemented a location search component with real-time query handling, displaying results with actionable buttons to update the map’s focus.
+          {`Developed an interactive map application that allows users to search for locations using the OpenStreetMap API and view them on a dynamic Leaflet powered map.
+            Implemented a location search component with real time query handling, displaying results with actionable buttons to update the map’s focus.
             Utilized TypeScript to enforce strict typing across components, improving code reliability and maintainability.
-            Integrated React Leaflet to render map markers and smooth fly-to animations upon location selection.
+            Integrated React Leaflet to render map markers and smooth fly to animations upon location selection.
             Styled the UI with Tailwind CSS for a clean, responsive, and accessible user experience.
             Added a light/dark mode toggle using Tailwind CSS dark classes, ensuring fast load times, semantic markup, accessibility, responsiveness, and seamless theme switching without impacting performance or crawlability.
-            Structured the app using modular components and TypeScript interfaces to streamline data flow and ensure type-safe API response handling.
+            Structured the app using modular components and TypeScript interfaces to streamline data flow and ensure type safe API response handling.
             `
           }
           skills={["React", "TypeScript", "Leaflet", "OpenStreetMap API", "Tailwind CSS"]}
