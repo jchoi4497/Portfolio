@@ -23,7 +23,7 @@ function ContentSection({ title, description, projectLink, infoLinks, category, 
 
       {/* Project Screenshots */}
       {photos.length > 0 && (
-        <div className="flex flex-wrap gap-4 mb-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-4 max-w-[900px] pr-20 mr-32">
           {photos.map((src, index) => (
             <img
               key={index}
@@ -35,8 +35,6 @@ function ContentSection({ title, description, projectLink, infoLinks, category, 
           ))}
         </div>
       )}
-
-
 
       {/* Title */}
       <a

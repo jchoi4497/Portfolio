@@ -5,7 +5,11 @@ import GymEditWorkout from './images/GymGuidePhotos/GymEditWorkout.png';
 import GymGetStarted from './images/GymGuidePhotos/GymGetStarted.png';
 import GymLandingPage from './images/GymGuidePhotos/GymLandingPage.png';
 import GymWorkoutList from './images/GymGuidePhotos/GymWorkoutList.png';
-
+import YouNotDownLanding from './images/YouNotDownPhotos/YouNotDownLanding.png';
+import YouNotDownCreatePoll from './images/YouNotDownPhotos/YouNotDownCreatePoll.png';
+import YouNotDownNames from './images/YouNotDownPhotos/YouNotDownNames.png';
+import YouNotDownPoll from './images/YouNotDownPhotos/YouNotDownPoll.png';
+import YouNotDownResults from './images/YouNotDownPhotos/YouNotDownResults.png';
 
 function Content() {
   return (
@@ -34,6 +38,7 @@ function Content() {
 
         <ContentSection
           title="YouNotDown"
+          photos={[YouNotDownLanding, YouNotDownCreatePoll, YouNotDownNames, YouNotDownPoll, YouNotDownResults]}
           description=
           {`Collaboratively developed an application that simplifies the process of making plans with friends.
             The app allows multiple users to create and participate in polls, showing who wants to attend the event and their preferences.
