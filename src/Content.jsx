@@ -1,15 +1,28 @@
 import ContentSection from "./ContentSection";
 import GitHubLogo from './images/GitHubLogo.png';
+
 import GymCreateWorkout from './images/GymGuidePhotos/GymCreateWorkout.png';
 import GymEditWorkout from './images/GymGuidePhotos/GymEditWorkout.png';
 import GymGetStarted from './images/GymGuidePhotos/GymGetStarted.png';
 import GymLandingPage from './images/GymGuidePhotos/GymLandingPage.png';
 import GymWorkoutList from './images/GymGuidePhotos/GymWorkoutList.png';
+
 import YouNotDownLanding from './images/YouNotDownPhotos/YouNotDownLanding.png';
 import YouNotDownCreatePoll from './images/YouNotDownPhotos/YouNotDownCreatePoll.png';
 import YouNotDownNames from './images/YouNotDownPhotos/YouNotDownNames.png';
 import YouNotDownPoll from './images/YouNotDownPhotos/YouNotDownPoll.png';
 import YouNotDownResults from './images/YouNotDownPhotos/YouNotDownResults.png';
+
+import MapStart from './images/MapPhotos/MapStart.png';
+import MapSearch from './images/MapPhotos/MapSearch.png';
+import MapLocation from './images/MapPhotos/MapLocation.png';
+import MapDark from './images/MapPhotos/MapDark.png';
+
+import CompDropdown from './images/ComponentsPhotos/CompDropdown.png';
+import CompAccordion from './images/ComponentsPhotos/CompAccordion.png';
+import CompModal from './images/ComponentsPhotos/CompModal.png';
+import CompTable from './images/ComponentsPhotos/CompTable.png';
+
 
 function Content() {
   return (
@@ -56,6 +69,7 @@ function Content() {
 
         <ContentSection
           title="MapLocationSearch"
+          photos={[MapStart, MapSearch, MapLocation, MapDark]}
           description=
           {`Developed an interactive map application that allows users to search for locations using the OpenStreetMap API and view them on a dynamic Leaflet powered map.
             Implemented a location search component with real time query handling, displaying results with actionable buttons to update the map’s focus.
@@ -77,6 +91,7 @@ function Content() {
 
         <ContentSection
           title="Components"
+          photos={[CompDropdown, CompAccordion, CompModal, CompTable]}
           description=
           {`An application designed to showcase and demonstrate various components and techniques learned throughout my development journey.
             The app serves as a portfolio of different UI components, including form elements, buttons, modals, accordions, and interactive features.`
