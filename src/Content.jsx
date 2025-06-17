@@ -18,6 +18,7 @@ import MapStart from './images/MapPhotos/MapStart.png';
 import MapSearch from './images/MapPhotos/MapSearch.png';
 import MapLocation from './images/MapPhotos/MapLocation.png';
 import MapDark from './images/MapPhotos/MapDark.png';
+import MapGif from './images/MapPhotos/MapGif.gif';
 
 import CompDropdown from './images/ComponentsPhotos/CompDropdown.png';
 import CompAccordion from './images/ComponentsPhotos/CompAccordion.png';
@@ -70,7 +71,7 @@ function Content() {
 
         <ContentSection
           title="MapLocationSearch"
-          photos={[MapStart, MapSearch, MapLocation, MapDark]}
+          photos={[MapStart, MapGif, MapSearch, MapLocation, MapDark]}
           description=
           {`Developed an interactive map application that allows users to search for locations using the OpenStreetMap API and view them on a dynamic Leaflet powered map.
             Implemented a location search component with real time query handling, displaying results with actionable buttons to update the map’s focus.
