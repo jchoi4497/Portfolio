@@ -6,6 +6,7 @@ import GymEditWorkout from './images/GymGuidePhotos/GymEditWorkout.png';
 import GymGetStarted from './images/GymGuidePhotos/GymGetStarted.png';
 import GymLandingPage from './images/GymGuidePhotos/GymLandingPage.png';
 import GymWorkoutList from './images/GymGuidePhotos/GymWorkoutList.png';
+import GimGif from './images/GymGuidePhotos/GymGif.gif';
 
 import YouNotDownLanding from './images/YouNotDownPhotos/YouNotDownLanding.png';
 import YouNotDownCreatePoll from './images/YouNotDownPhotos/YouNotDownCreatePoll.png';
@@ -31,7 +32,7 @@ function Content() {
 
         <ContentSection
           title="JcsGymGuide"
-          photos={[GymLandingPage, GymGetStarted, GymCreateWorkout, GymEditWorkout, GymWorkoutList]}
+          photos={[GymLandingPage, GymGetStarted, GimGif, GymEditWorkout, GymWorkoutList]}
           description=
           {`This project holds personal significance as it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do.
             Like many people new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions.
