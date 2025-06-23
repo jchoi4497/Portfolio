@@ -34,9 +34,9 @@ function SideBar() {
             href="https://github.com/jchoi4497"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 font-thin underline hover:no-underline"
+            className="inline-flex items-center gap-2 font-thin underline hover:no-underline focus:text-accent"
           >
-            <img src={GitHubLogo} alt="GitHub" className="w-5 h-5 dark:invert" />
+            <img src={GitHubLogo} alt="GitHub" className="w-5 h-5 [html[data-theme=themeII]_&]:invert" />
             GitHub Profile
           </a>
         </li>
@@ -45,7 +45,7 @@ function SideBar() {
             href="https://www.linkedin.com/in/jonathan-choi-89026b198/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 font-thin underline hover:no-underline"
+            className="inline-flex items-center gap-2 font-thin underline hover:no-underline focus:text-accent"
           >
             <img src={LinkedInLogo} alt="LinkedIn" className="w-5 h-5" />
             LinkedIn Profile

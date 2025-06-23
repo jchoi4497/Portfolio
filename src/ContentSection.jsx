@@ -41,7 +41,7 @@ function ContentSection({ title, description, projectLink, infoLinks, category, 
         href={projectLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-3xl underline hover:no-underline font-bold focus:text-stone-600"
+        className="text-3xl underline hover:no-underline font-bold focus:text-accent"
       >
         {title}
       </a>

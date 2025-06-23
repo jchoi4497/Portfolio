@@ -27,10 +27,10 @@ function InfoCard({ category, date, skills, infoLinks }) {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 underline hover:no-underline focus:text-stone-600"
+                  className="flex items-center gap-2 underline hover:no-underline focus:text-accent"
                 >
                   {link.logo && (
-                    <img src={link.logo} alt="" className="w-5 h-5 dark:invert" />
+                    <img src={link.logo} alt="" className="w-5 h-5 [html[data-theme=themeII]_&]:invert" />
                   )}
                   {link.label}
 
