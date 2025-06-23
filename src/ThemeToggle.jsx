@@ -20,9 +20,10 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={handleThemeChange}
-      className="bg-accent text-text px-4 py-2 mt-4 p-6 rounded-full shadow-lg sm:absolute sm:top-5 sm:right-5 hover:scale-105 active:scale-100"
+      className="flex px-6 py-4 mt-4 p-6 gap-2 bg-accent text-text text-outline rounded-full shadow-lg sm:absolute sm:top-5 sm:right-5 hover:scale-105 active:scale-100"
     >
-      Switch Theme
+      <span className="w-4 h-4 mt-1 rounded-full bg-primary border border-black shadow-xl"></span>
+      <span className="w-4 h-4 mt-1 rounded-full bg-secondary border border-black shadow-xl"></span>
     </button>
   );
 }
