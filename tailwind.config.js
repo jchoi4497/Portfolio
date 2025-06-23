@@ -10,6 +10,12 @@ export default {
       screens: {
         'half': '1000px'
       },
+      colors: {
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        accent: 'var(--color-accent)',
+        highlight: 'var(--color-hightlight)',
+      },
     },
   },
   plugins: [],

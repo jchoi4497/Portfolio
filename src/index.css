@@ -5,3 +5,30 @@
 html {
   scroll-behavior: smooth;
 }
+
+:root {
+  --color-primary: #0F172A;
+  --color-secondary: #1E293B;
+  --color-accent: #3B82F6;
+}
+
+[data-theme="themeI"] {
+  --color-primary: #d4d8f0;
+  --color-secondary: #232946;
+  --color-accent: #eebbc3;
+  --color-highlight: #fffffe;
+}
+
+[data-theme="themeII"] {
+  --color-primary: #232946;
+  --color-secondary: #d4d8f0;
+  --color-accent: #eebbc3;
+  --color-highlight: #fffffe;
+}
+
+[data-theme="themeIII"] {
+  --color-primary: #faeee7;
+  --color-secondary: #33272a;
+  --color-accent: #33272a;
+  --color-highlight: #fffffe;
+}
