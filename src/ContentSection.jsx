@@ -29,7 +29,7 @@ function ContentSection({ title, description, projectLink, infoLinks, category, 
               key={index}
               src={src}
               alt={`${title} screenshot ${index + 1}`}
-              className="rounded-xl shadow-md w-48 hover:opacity-90 cursor-pointer hover:scale-110 transition"
+              className="rounded-xl shadow-md w-48 hover:opacity-90 cursor-pointer hover:scale-110 active:scale-100 transition"
               onClick={() => setActiveImage(src)}
             />
           ))}

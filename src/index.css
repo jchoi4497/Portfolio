@@ -17,13 +17,15 @@ html {
   --color-secondary: #232946;
   --color-accent: #eebbc3;
   --color-highlight: #fffffe;
+  --color-text: #232946;
 }
 
 [data-theme="themeII"] {
   --color-primary: #232946;
   --color-secondary: #d4d8f0;
-  --color-accent: #eebbc3;
+  --color-accent: #d4d8f0;
   --color-highlight: #fffffe;
+  --color-text: #232946;
 }
 
 [data-theme="themeIII"] {
@@ -31,4 +33,13 @@ html {
   --color-secondary: #33272a;
   --color-accent: #33272a;
   --color-highlight: #fffffe;
+  --color-text: #faeee7;
+}
+
+[data-theme="themeIV"] {
+  --color-primary: #abd1c6;
+  --color-secondary: #001e1d;
+  --color-accent: #f9bc60;
+  --color-highlight: #fffffe;
+  --color-text: #004643;
 }

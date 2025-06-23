@@ -12,6 +12,7 @@ export default function ThemeToggle() {
     setTheme(prev => {
       if (prev === 'themeI') return "themeII";
       if (prev === 'themeII') return "themeIII";
+      if (prev === 'themeIII') return "themeIV";
       return "themeI";
     });
   };
@@ -19,7 +20,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={handleThemeChange}
-      className="bg-accent text-primary px-4 py-2 mt-4 p-6 rounded-full border-2 border-accent sm:absolute sm:top-5 sm:right-5"
+      className="bg-accent text-text px-4 py-2 mt-4 p-6 rounded-full shadow-lg sm:absolute sm:top-5 sm:right-5 hover:scale-105 active:scale-100"
     >
       Switch Theme
     </button>
