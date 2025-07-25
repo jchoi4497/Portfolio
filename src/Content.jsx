@@ -35,12 +35,10 @@ function Content() {
           title="JcsGymGuide"
           photos={[GymLandingPage, GymGetStarted, GimGif, GymEditWorkout, GymWorkoutList]}
           description=
-          {`This project holds personal significance as it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do.
-            Like many people new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions.
-            To solve this, I built an interactive, single page application using React for dynamic state management and component based design.
-            Tailwind CSS was used to create a clean, responsive, and scalable UI, while Firebase Firestore handled data storage allowing users to log, edit, and delete customized workout sessions.
-            The app also includes categorized exercise ordering and personalized input handling to guide users through their routines.
-            By combining CRUD operations with user centered UI/UX principles, this app helps both beginners and experienced lifters stay consistent and confident in the gym.`
+          {`This project holds personal significance because it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do. Like many people who are new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions. To solve this, I built an interactive single page application using React for dynamic state management and a component based design. Tailwind CSS was used to create a clean, responsive, and scalable user interface, while Firebase Firestore handled data storage, allowing users to log, edit, and delete customized workout sessions.
+            To take the experience further, I integrated the OpenAI API, enabling the app to analyze workout logs and provide personalized insights and suggestions based on user input. I also implemented Recharts to visualize workout data, allowing users to track their progress and spot trends over time.
+            The app features categorized exercise ordering and intuitive input handling to guide users through their routines. By combining full CRUD functionality with AI powered feedback, visual data tracking, and user focused design, this application helps both beginners and experienced lifters stay consistent, informed, and confident in the gym.
+            `
           }
           category={"Frontend Web Application"}
           date={"2024"}
