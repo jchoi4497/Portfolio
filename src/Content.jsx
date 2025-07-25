@@ -6,7 +6,9 @@ import GymEditWorkout from './images/GymGuidePhotos/GymEditWorkout.png';
 import GymGetStarted from './images/GymGuidePhotos/GymGetStarted.png';
 import GymLandingPage from './images/GymGuidePhotos/GymLandingPage.png';
 import GymWorkoutList from './images/GymGuidePhotos/GymWorkoutList.png';
-import GimGif from './images/GymGuidePhotos/GymGif.gif';
+import GymGif from './images/GymGuidePhotos/GymGif.gif';
+import GraphGif from './images/GymGuidePhotos/GraphGif.gif';
+import OpenAi from './images/GymGuidePhotos/OpenAI.png';
 
 import YouNotDownLanding from './images/YouNotDownPhotos/YouNotDownLanding.png';
 import YouNotDownCreatePoll from './images/YouNotDownPhotos/YouNotDownCreatePoll.png';
@@ -33,7 +35,7 @@ function Content() {
 
         <ContentSection
           title="JcsGymGuide"
-          photos={[GymLandingPage, GymGetStarted, GimGif, GymEditWorkout, GymWorkoutList]}
+          photos={[GymLandingPage, GymGif, GymWorkoutList, GraphGif, OpenAi]}
           description=
           {`This project holds personal significance because it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do. Like many people who are new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions. To solve this, I built an interactive single page application using React for dynamic state management and a component based design. Tailwind CSS was used to create a clean, responsive, and scalable user interface, while Firebase Firestore handled data storage, allowing users to log, edit, and delete customized workout sessions.
             To take the experience further, I integrated the OpenAI API, enabling the app to analyze workout logs and provide personalized insights and suggestions based on user input. I also implemented Recharts to visualize workout data, allowing users to track their progress and spot trends over time.
