@@ -21,7 +21,7 @@ function SideBar() {
             Software Engineer
           </span>
           I’m a San Francisco native with a business economics degree who took an unconventional path into tech.
-          Instead of following the typical CS degree or coding bootcamp route, I taught myself to code through online courses, personal projects, and plenty of trial and error.
+          Instead of following the traditional route, I taught myself to code through online courses, personal projects, and plenty of trial and error.
           These days, I’m passionate about building clean, responsive web apps using React, Tailwind CSS, and Firebase.
           I’m especially interested in creating tools that make everyday tasks more convenient and help people interact with information in smarter, simpler ways.
           If you want to know more, you can contact me at:
