@@ -60,18 +60,18 @@ function Content() {
         />
 
         <ContentSection
-          title="BrownBoyBags"
+          title="StoreShowCase"
           photos={[]}
           description={`Developed a modern, responsive product showcase website using Vue 3 and Tailwind CSS. Features include mobile-first design, smooth navigation, dynamic product cards, and polished UI/UX. The project demonstrates front-end development skills, state management, and deployment best practices.
             `}
           category={"Frontend Web Application"}
           date={"2024"}
           skills={["Vue 3", "Tailwind CSS", "Firebase"]}
-          projectLink="https://brownboybags.netlify.app/"
+          projectLink="https://storeshowcase.netlify.app/"
           infoLinks={[
             {
               label: "Project code on Github",
-              url: "https://github.com/jchoi4497/brownboybags",
+              url: "https://github.com/jchoi4497/ShowCase",
               logo: GitHubLogo,
             },
           ]}
