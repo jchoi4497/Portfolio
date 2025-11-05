@@ -42,9 +42,8 @@ function Content() {
             OpenAi,
             MobileDemo,
           ]}
-          description={`This project holds personal significance because it was inspired by my own gym journey and the challenges I faced staying organized and knowing what exercises to do. Like many people who are new to the gym, I often felt unsure about which workouts to choose or how to structure my sessions. To solve this, I built an interactive single page application using React for dynamic state management and a component based design. Tailwind CSS was used to create a clean, responsive, and scalable user interface, while Firebase Firestore handled data storage, allowing users to log, edit, and delete customized workout sessions.
-            To take the experience further, I integrated the OpenAI API, enabling the app to analyze workout logs and provide personalized insights and suggestions based on user input. I also implemented Recharts to visualize workout data, allowing users to track their progress and spot trends over time.
-            The app features categorized exercise ordering and intuitive input handling to guide users through their routines. By combining full CRUD functionality with AI powered feedback, visual data tracking, and user focused design, this application helps both beginners and experienced lifters stay consistent, informed, and confident in the gym.
+          description={`Inspired by my own fitness journey, I built an interactive single-page workout tracker using React, Tailwind CSS, and Firebase Firestore. The app lets users log, edit, and delete custom workouts, with AI-powered insights via the OpenAI API and data visualization through Recharts. It features categorized exercises, intuitive input handling, and a clean, responsive UI that helps users stay organized and motivated in the gym.
+                        This project matters to me because it grew out of my own challenges staying consistent and confident when starting out, and I wanted to create a tool that makes that process easier for others.r focused design, this application helps both beginners and experienced lifters stay consistent, informed, and confident in the gym.
             `}
           category={"Frontend Web Application"}
           date={"2024"}
@@ -62,7 +61,7 @@ function Content() {
         <ContentSection
           title="JonnyBottles"
           photos={[]}
-          description={`Developed a modern, responsive product showcase website using Vue 3 and Tailwind CSS. Features include mobile-first design, smooth navigation, dynamic product cards, and polished UI/UX. The project demonstrates front-end development skills, state management, and deployment best practices.
+          description={`Developed a modern, responsive product showcase web app using Vue 3 and Tailwind CSS. The site features a mobile-first layout, smooth category and tag filtering, and dynamic product rendering based on user interaction. Implemented state management with Vue’s reactivity system to handle real-time updates, and used computed properties for efficient filtering logic. The UI includes animated transitions, scroll-based navigation, and a polished UX across devices. Deployed with production-ready configuration to ensure optimal performance and accessibility.
             `}
           category={"Frontend Web Application"}
           date={"2024"}
