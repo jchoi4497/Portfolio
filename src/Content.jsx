@@ -69,7 +69,7 @@ function Content() {
           description={`Developed a modern, responsive product showcase web app using Vue 3 and Tailwind CSS. The site features a mobile-first layout, smooth category and tag filtering, and dynamic product rendering based on user interaction. Implemented state management with Vue’s reactivity system to handle real-time updates, and used computed properties for efficient filtering logic. The UI includes animated transitions, scroll-based navigation, and a polished UX across devices. Deployed with production-ready configuration to ensure optimal performance and accessibility.
             `}
           category={"Frontend Web Application"}
-          date={"2024"}
+          date={"2025"}
           skills={["Vue 3", "Tailwind CSS", "Firebase"]}
           projectLink="https://jonnybottles.netlify.app/"
           infoLinks={[
