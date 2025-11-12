@@ -28,6 +28,11 @@ import CompAccordion from "./images/ComponentsPhotos/CompAccordion.png";
 import CompModal from "./images/ComponentsPhotos/CompModal.png";
 import CompTable from "./images/ComponentsPhotos/CompTable.png";
 
+import JB from "./images/JonnyBottlesPhotos/jb.png";
+import JBMenu from "./images/JonnyBottlesPhotos/jbmenu.gif";
+import JBFilter from "./images/JonnyBottlesPhotos/jbfilter.gif";
+import JBFilter2 from "./images/JonnyBottlesPhotos/jbfilter2.gif";
+
 function Content() {
   return (
     <div className="font-open-sans w-full pt-10 z-0">
@@ -60,7 +65,7 @@ function Content() {
 
         <ContentSection
           title="JonnyBottles"
-          photos={[]}
+          photos={[JB, JBFilter, JBFilter2, JBMenu]}
           description={`Developed a modern, responsive product showcase web app using Vue 3 and Tailwind CSS. The site features a mobile-first layout, smooth category and tag filtering, and dynamic product rendering based on user interaction. Implemented state management with Vue’s reactivity system to handle real-time updates, and used computed properties for efficient filtering logic. The UI includes animated transitions, scroll-based navigation, and a polished UX across devices. Deployed with production-ready configuration to ensure optimal performance and accessibility.
             `}
           category={"Frontend Web Application"}
