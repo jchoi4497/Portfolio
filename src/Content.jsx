@@ -33,6 +33,12 @@ import JBMenu from "./images/JonnyBottlesPhotos/jbmenu.gif";
 import JBFilter from "./images/JonnyBottlesPhotos/jbfilter.gif";
 import JBFilter2 from "./images/JonnyBottlesPhotos/jbfilter2.gif";
 
+import globe from "./images/windborneProjectPhotos/globe.png";
+import globe2 from "./images/windborneProjectPhotos/globe2.png";
+import globe3 from "./images/windborneProjectPhotos/globe3.png";
+import globegif from "./images/windborneProjectPhotos/globegif.gif";
+import globegifmobile from "./images/windborneProjectPhotos/globegifmobile.gif";
+
 function Content() {
   return (
     <div className="font-open-sans w-full pt-10 z-0">
@@ -58,6 +64,31 @@ function Content() {
             {
               label: "Project code on Github",
               url: "https://github.com/jchoi4497/Gym-Guide",
+              logo: GitHubLogo,
+            },
+          ]}
+        />
+
+        <ContentSection
+          title="WindborneProject"
+          photos={[globe, globe2, globe3, globegif, globegifmobile]}
+          description={`I built an interactive 3D globe application using React, Three.js / react-globe.gl, and Node.js to visualize and continuously update real time balloon telemetry and weather data. The app integrates APIs including OpenWeatherMap to display geospatial coordinates with dynamic markers and a responsive UI, showcasing strong skills in live data visualization and API driven development.
+                        This project reflects my interest in transforming raw global datasets into meaningful, visually engaging experiences. It highlights my abilities in modern frontend engineering, backend communication, real time data streaming, performance optimization, and intuitive interface design for live geospatial exploration.`}
+          category={"Full Stack + Data Visualization"}
+          date={"2025"}
+          skills={[
+            "React",
+            "Node.js",
+            "Express",
+            "Three.js",
+            "react-globe.gl",
+            "OpenWeatherMap API",
+          ]}
+          projectLink="https://windborneproject.netlify.app/"
+          infoLinks={[
+            {
+              label: "Project code on Github",
+              url: "https://github.com/jchoi4497/windborneProject",
               logo: GitHubLogo,
             },
           ]}
