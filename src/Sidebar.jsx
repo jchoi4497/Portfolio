@@ -1,6 +1,6 @@
-import PortfolioPic from './images/Portfolio.jpg';
-import GitHubLogo from './images/GitHubLogo.png';
-import LinkedInLogo from './images/LinkedInLogo.svg.png';
+import PortfolioPic from "./images/Portfolio.jpg";
+import GitHubLogo from "./images/GitHubLogo.png";
+import LinkedInLogo from "./images/LinkedInLogo.svg.png";
 
 function SideBar() {
   return (
@@ -15,16 +15,19 @@ function SideBar() {
       </div>
 
       <div className="relative flex flex-col gap-2 pr-4 half:pr-6">
-
         <p className="font-thin break-words w-full pr-0 half:pr-4">
-          <span className="font-bold text-2xl block">
-            Software Engineer
-          </span>
-          I’m a San Francisco native with a business economics degree who took an unconventional path into tech.
-          Instead of following the traditional route, I taught myself to code through online courses, personal projects, and plenty of trial and error.
-          These days, I’m passionate about building clean, responsive web apps using React, Tailwind CSS, and Firebase.
-          I’m especially interested in creating tools that make everyday tasks more convenient and help people interact with information in smarter, simpler ways.
-          If you want to know more, you can contact me at:
+          <span className="font-bold text-2xl block">Software Engineer</span>
+          As a San Francisco native with a background in Business Economics, I
+          took the self-taught route to master web development, approaching
+          complex systems with both a business and a developer's perspective. My
+          passion lies in building clean, performant, and responsive
+          applications across the JavaScript ecosystem. I specialize in
+          front-end frameworks like React and Vue 3 (styled with Tailwind CSS),
+          and architecting scalable back-ends using Firebase and the
+          Postgres-based platform, Supabase. I am driven to create innovative
+          tools that leverage data visualization and simplify how people
+          interact with information. If you want to know more about my journey
+          or my projects, you can contact me at:
         </p>
       </div>
 
@@ -36,7 +39,11 @@ function SideBar() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-thin underline hover:no-underline focus:text-accent"
           >
-            <img src={GitHubLogo} alt="GitHub" className="w-5 h-5 [html[data-theme=themeII]_&]:invert" />
+            <img
+              src={GitHubLogo}
+              alt="GitHub"
+              className="w-5 h-5 [html[data-theme=themeII]_&]:invert"
+            />
             GitHub Profile
           </a>
         </li>
@@ -52,8 +59,6 @@ function SideBar() {
           </a>
         </li>
       </ul>
-
-
     </div>
   );
 }
