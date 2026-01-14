@@ -53,8 +53,11 @@ function Content() {
             OpenAi,
             MobileDemo,
           ]}
-          description={`Inspired by my own fitness journey, I built an interactive single-page workout tracker using React, Tailwind CSS, and Firebase Firestore. The app lets users log, edit, and delete custom workouts, with AI-powered insights via the OpenAI API and data visualization through Recharts. It features categorized exercises, intuitive input handling, and a clean, responsive UI that helps users stay organized and motivated in the gym.
-                        This project matters to me because it grew out of my own challenges staying consistent and confident when starting out, and I wanted to create a tool that makes that process easier for others.r focused design, this application helps both beginners and experienced lifters stay consistent, informed, and confident in the gym.
+          description={`Inspired by my own fitness journey, I engineered a full-stack workout intelligence platform that transforms static logs into proactive insights.
+            I built the frontend with React and Tailwind CSS, focusing on a high-fidelity, mobile-first UI. A core priority was security and data integrity;
+            I implemented OAuth 2.0 via Firebase Auth to manage secure user sessions and ensure that personal fitness data is protected and synced in real-time across devices using Firestore.
+            To move beyond simple data entry, I integrated the OpenAI API to analyze historical trends, identifying performance plateaus and suggesting weight increments. I also utilized Recharts to visualize these gains, turning raw database logs into clear trend lines.
+            This project demonstrates my ability to bridge the gap between secure backend 'plumbing' and a polished user experience, turning the messy data of a workout into a structured, actionable system.
             `}
           category={"Frontend Web Application"}
           date={"2024"}
