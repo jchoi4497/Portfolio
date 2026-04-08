@@ -1,6 +1,7 @@
 import PortfolioPic from "./images/Portfolio.jpg";
 import GitHubLogo from "./images/GitHubLogo.png";
 import LinkedInLogo from "./images/LinkedInLogo.svg.png";
+import GmailLogo from "./images/gmailLogos.jpg";
 
 function SideBar() {
   return (
@@ -33,6 +34,15 @@ function SideBar() {
       </div>
 
       <ul className="mt-8 flex flex-col gap-4">
+        <li>
+          <a
+            href="mailto:jchoi4497@gmail.com"
+            className="inline-flex items-center gap-2 font-thin underline hover:no-underline focus:text-accent"
+          >
+            <img src={GmailLogo} alt="Email" className="w-5 h-5" />
+            jchoi4497@gmail.com
+          </a>
+        </li>
         <li>
           <a
             href="https://github.com/jchoi4497"
