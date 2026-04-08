@@ -78,10 +78,9 @@ export const projects = [
     id: "windborne-project",
     title: "WindborneProject",
     photos: [globe, globe2, globe3, globegif, globegifmobile],
-    description: `I built an interactive 3D globe that visualizes real-time balloon telemetry and weather data using React, Three.js/react-globe.gl, and Node.js.
-                  The application integrates APIs including OpenWeatherMap to render geospatial coordinates with dynamic markers and live updates. This project reflects my interest in
-                  transforming raw global datasets into meaningful, visually engaging experiences—combining modern frontend engineering, real-time data streaming, and intuitive interface
-                  design for live geospatial exploration.`,
+    description: `I built an interactive 3D globe application that visualizes atmospheric balloon flight paths with real-time weather overlays. Using React, Three.js, and react-globe.gl for WebGL-powered 3D rendering, the app fetches live telemetry from Windborne Systems and enriches it with meteorological data from the OpenWeatherMap API. Location markers are color-coded by temperature and rendered on an animated Earth with cloud layers.
+
+  The full-stack implementation features a Node.js/Express backend with Netlify serverless functions for data processing. I engineered resilient API integration with rate limiting (60 requests/minute), exponential backoff retry logic, and comprehensive error handling for corrupt or unavailable data. The app auto-refreshes every five minutes, demonstrating my ability to build robust real-time data visualization applications.`,
     category: "Full Stack + Data Visualization",
     date: "2025",
     skills: [
