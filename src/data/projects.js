@@ -104,7 +104,13 @@ export const projects = [
     id: "jonnybottles",
     title: "JonnyBottles",
     photos: [JB, JBFilter, JBFilter2, JBMenu],
-    description: `Developed a modern, responsive product showcase web app using Vue 3 and Tailwind CSS. The site features a mobile-first layout, smooth category and tag filtering, and dynamic product rendering based on user interaction. Implemented state management with Vue's reactivity system to handle real-time updates, and used computed properties for efficient filtering logic. The UI includes animated transitions, scroll-based navigation, and a polished UX across devices. Deployed with production-ready configuration to ensure optimal performance and accessibility.
+    description: `Built a beverage catalog app that helps users discover and explore drinks
+  through intuitive category navigation and multi-tag filtering. Implemented
+  smart filtering logic that combines multiple criteria (sugar-free, flavor
+  profiles, caffeine content) with real-time UI updates. Created a polished,
+  mobile-first experience using Vue 3's Composition API and Tailwind CSS,
+  featuring smooth scroll navigation, accessibility-focused interactions,
+  and sub-100ms filter responses through computed properties.
             `,
     category: "Frontend Web Application",
     date: "2025",
@@ -148,13 +154,14 @@ export const projects = [
     id: "maplocationsearch",
     title: "MapLocationSearch",
     photos: [MapStart, MapGif, MapSearch, MapLocation, MapDark],
-    description: `Developed an interactive map application that allows users to search for locations using the OpenStreetMap API and view them on a dynamic Leaflet powered map.
-            Implemented a location search component with real time query handling, displaying results with actionable buttons to update the map's focus.
-            Utilized TypeScript to enforce strict typing across components, improving code reliability and maintainability.
-            Integrated React Leaflet to render map markers and smooth fly to animations upon location selection.
-            Styled the UI with Tailwind CSS for a clean, responsive, and accessible user experience.
-            Added a light/dark mode toggle using Tailwind CSS dark classes, ensuring fast load times, semantic markup, accessibility, responsiveness, and seamless theme switching without impacting performance or crawlability.
-            Structured the app using modular components and TypeScript interfaces to streamline data flow and ensure type safe API response handling.
+    description: `Developed an interactive location search application featuring real-time queries to the OpenStreetMap API and
+  dynamic map visualization powered by React Leaflet. Implemented robust error handling, loading states, and input
+  validation to ensure a reliable user experience. Built a responsive search component that displays geocoded
+  results with one-click map navigation and smooth fly-to animations. Leveraged TypeScript throughout to enforce
+  type safety across API responses and component props, reducing runtime errors and improving maintainability.
+  Designed an accessible, mobile-responsive UI using Tailwind CSS with semantic HTML, ARIA labels, and a performant
+  light/dark mode toggle that persists user preferences via localStorage. Structured the application with modular
+  components and clean separation of concerns for scalable, maintainable code.
             `,
     skills: [
       "React",
