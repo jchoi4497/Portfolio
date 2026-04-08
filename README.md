@@ -1,12 +1,43 @@
-# React + Vite
+# Portfolio - Jonathan Choi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my software engineering projects and experience.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As a San Francisco native and self-directed engineer, I build high-fidelity systems with a focus on performant, responsive design. I specialize in the JavaScript ecosystem - specifically React, Next.js, and Vue 3 - supported by scalable backends using Firebase and Supabase (PostgreSQL).
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Tailwind CSS, React Router
+- **Build Tool**: Vite
+- **Deployment**: Netlify
+
+## Projects Featured
+
+- **JcsGymGuide** - Full-stack workout intelligence platform with OpenAI integration
+- **WindborneProject** - Interactive 3D globe with real-time balloon telemetry visualization
+- **JonnyBottles** - Modern product showcase built with Vue 3
+- **YouNotDown** - Collaborative polling application
+- **MapLocationSearch** - Interactive map with OpenStreetMap integration
+- **Components** - UI component demonstration showcase
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Contact
+
+- GitHub: [jchoi4497](https://github.com/jchoi4497)
+- LinkedIn: [Jonathan Choi](https://www.linkedin.com/in/jonathan-choi-89026b198/)
