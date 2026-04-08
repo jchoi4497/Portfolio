@@ -18,18 +18,17 @@ function SideBar() {
       <div className="relative flex flex-col gap-2 pr-4 half:pr-6">
         <p className="font-thin break-words w-full pr-0 half:pr-4">
           <span className="font-bold text-2xl block">Software Engineer</span>
-          As a San Francisco native and self directed engineer, I build high
-          fidelity systems with a focus on performant, responsive design. I
-          specialize in the JavaScript ecosystem specifically React, Next.js,
-          and Vue 3 supported by scalable backends using Firebase and Supabase
-          (PostgreSQL). My foundation is built on data integrity and secure
-          OAuth 2.0 implementations, which I now leverage to bridge the gap
-          between unstructured data and actionable insights. Recently, I’ve
-          focused on AI agentic workflows and LLM orchestration to transform raw
-          information into proactive, decision making tools. Driven by a passion
-          for data visualization, I aim to build software that fundamentally
-          simplifies how we interact with complex information. If you want to
-          know more about my journey or my projects, you can contact me at:
+          As a San Francisco native and full-stack engineer, I build polished,
+          performant systems with a focus on responsive design. I specialize in
+          the JavaScript ecosystem—React, Next.js, and Vue 3—supported by
+          scalable backends using Firebase and Supabase (PostgreSQL). My
+          foundation in data integrity and secure OAuth 2.0 implementations now
+          powers my work in AI agentic workflows and LLM orchestration, bridging
+          the gap between unstructured data and actionable insights. Driven by a
+          passion for data visualization, I aim to build software that
+          fundamentally simplifies how we interact with complex information. If
+          you want to know more about my journey or my projects, you can contact
+          me below at:
         </p>
       </div>
 
